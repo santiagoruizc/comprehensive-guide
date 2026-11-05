@@ -2,7 +2,7 @@
 
 Understanding how to initialize, track, push, and pull changes ensures seamless coordination between local code, remote repositories, and cloud environments (such as Visual Studio Code and Google Colab).
 
-### 1.1 Local Repository Initialization & Identity Setup
+### 1.1 Local repository initialization & identity setup
 Run these commands inside your project root folder:
 
 ```bash
@@ -14,7 +14,7 @@ git config user.name "NAME"
 git config user.email "EMAIL"
 ```
 
-### 1.2 Remote Association & Branch Setup
+### 1.2 Remote association & branch setup
 Link your local workspace to your remote GitHub repository:
 
 ```bash
@@ -25,7 +25,7 @@ git remote add origin [https://github.com/USERNAME/REPOSITORY_NAME.git](https://
 git branch -M main
 ```
 
-### 1.3 Staging, Committing, and Pushing Changes
+### 1.3 Staging, committing, and pushing changes
 When uploading new code or edits to GitHub:
 
 ```bash
@@ -43,7 +43,7 @@ git commit -m "feat: setup initial environment scripts and docs"
 git push -u origin main
 ```
 
-### 1.4 Pulling Remote Changes (Synchronization)
+### 1.4 Pulling remote changes (Synchronization)
 When working across multiple environments (e.g., pulling code modified in GitHub or Google Colab back into VS Code):
 
 ```bash
@@ -51,5 +51,5 @@ When working across multiple environments (e.g., pulling code modified in GitHub
 git pull origin main
 ```
 
-[!WARNING]
-Executing rm -rf .git permanently removes all revision history. Only use this command if you explicitly intend to reset the Git workspace.
+> [!WARNING]
+> Executing rm -rf .git permanently removes all revision history. Only use this command if you explicitly intend to reset the Git workspace.
