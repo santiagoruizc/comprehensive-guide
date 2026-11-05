@@ -1,0 +1,28 @@
+# Jupyter Notebook Checkpoints and temporary files
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Jupyter temporary files and logs
+.jupyter/
+*.ipynb_checkpoints
+
+# if you export notebooks to other formats, you can ignore the automatic results:
+# *.html
+# *.pdf
+
+# Python virtual environment configuration
+venv/
+.venv/
+env/
+IPYNB/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Environment variables (Secrets and API keys)
+.env
