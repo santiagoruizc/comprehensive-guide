@@ -20,9 +20,9 @@ bio-project-template/
 └── results/                 # Publication-ready figures, tables, and reports
 ```
 ### 4.2 Handling large-scale biological data & Git LFS
-Repositories on GitHub enforce file size caps (100 MB max per file). Raw sequence files (FASTQ, BAM, VCF) and heavy matrices must be managed via '.gitignore' or tracked explicitly with Git Large File Storage (LFS).
+Repositories on GitHub enforce file size caps (100 MB max per file). Raw sequence files (FASTQ, BAM, VCF) and heavy matrices must be managed via `.gitignore` or tracked explicitly with Git Large File Storage (LFS).
 
-Recommended '.gitignore' Template for Omics Workflows
+#### Recommended `.gitignore` Template for Omics Workflows
 
 ```Code snippet
 # Raw and Intermediate Genomic/Omics Files
@@ -55,8 +55,8 @@ env/
 venv/
 ```
 
-Git LFS Configuration
-If intermediate reference tables must be versioned:
+#### Git LFS Configuration
+##### If intermediate reference tables must be versioned:
 
 ```bash
 # Initialize Git LFS tracking
